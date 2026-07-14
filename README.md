@@ -8,6 +8,7 @@
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
+<img width="1200" height="627" alt="library" src="https://github.com/user-attachments/assets/6ef10c03-5423-47ae-aecc-482cdeba0564" />
 
 ## Objectives
 
@@ -19,6 +20,8 @@ This project demonstrates the implementation of a Library Management System usin
 ## Project Structure
 
 ## 1. Database Setup:
+
+<img width="1272" height="880" alt="EER Diagram" src="https://github.com/user-attachments/assets/d871f29f-7113-4f59-869c-d28172aaf243" />
 
 - **Database Creation**: Created a database named `library_project_2`.
 - **Table Creation**: Created tables for branch_tb, emp_tb, member_tb, book_tb, issued_tb, and return_tb. Each table includes relevant columns and relationships.
@@ -93,7 +96,7 @@ CREATE TABLE return_tb (
 );
 
 ```
-### 2.Adding FOREIGN KEY:
+### 3. Adding FOREIGN KEY:
 
 ```sql
 
@@ -128,7 +131,7 @@ REFERENCES branch_tb(branch_id);
 
 ```
 
-### 3. CRUD Operations:
+### 4. CRUD Operations:
 
 - **Create**: Inserted sample records into the `books` table.
 - **Read**: Retrieved and displayed data from various tables.
@@ -196,7 +199,7 @@ GROUP BY issued_member_id
 HAVING No_of_book_issued  > 1;
 ```
 
-### 4. CTAS (Create Table As Select):
+### 5. CTAS (Create Table As Select):
 
 **Task 6: Create Summary Tables**: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**
 
@@ -468,4 +471,4 @@ This project showcases SQL skills essential for database management and analysis
 - **LinkedIn**: [Connect with me professionally](https://linkedin.com/in/sankaragopi-b-9b45312b2)
 
 
-Thank you for your interest in this project!
+
