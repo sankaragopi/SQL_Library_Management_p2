@@ -468,7 +468,6 @@ Final Year Engineering Student | Aspiring Data Analyst
 
 This project showcases SQL skills essential for database management and analysis.
 
-- **LinkedIn**: [Connect with me professionally](https://linkedin.com/in/sankaragopi-b-9b45312b2)
-
+- **LinkedIn**: https://www.linkedin.com/in/sankaragopi2004in/
 
 
